@@ -1,0 +1,80 @@
+#!/system/bin/sh
+
+echo down | ./hid-gadget-test /dev/hidg0 keyboard
+echo down | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo left-ctrl n | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo left-ctrl l | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.6
+echo g i t h u b | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo period | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo c o m | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo a n d r o i | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo d m a l w | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo a r e | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo h i d | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo r a w | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo m a i n | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo h i d | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo period | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo a p k | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.2
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+
+echo tab | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo tab right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo down | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+
+sleep 1
+echo tab | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo tab right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo tab right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo tab right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+
+sleep 1
+echo right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo tab | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+
+sleep 5.5
+echo tab | ./hid-gadget-test /dev/hidg0 keyboard
+echo right | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
