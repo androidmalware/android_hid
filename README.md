@@ -1,17 +1,26 @@
 # android_hid
-Use Android as Rubber Ducky against another Android device
+Use Android as Rubber Ducky against targeted Android device or PC
 
 ## HID attack using Android
 
-Using Android as Rubber Ducky against Android. This is not a new technique, just a demo how to perform HID attack using Android instead of rubber ducky. For targeted Android device it is not necessary to be rooted, have ADB/USB debugging enabled and device authorized, since attacker's smartphone behaves as connected keyboard. 
+Using Android as Rubber Ducky against Android or Windows. This is not a new technique, just a demo how to perform HID attack using Android instead of rubber ducky. For targeted Android device it is not necessary to be rooted, have ADB/USB debugging enabled and device authorized, since attacker's smartphone behaves as connected keyboard. 
 
-### How to prevent this happening
+hid_attack - script contains customized commands that are executed (typed) against targeted Android device
+hid_pc - script contains customized commands that are executed (typed) against targeted Windows 10
+
+### How to prevent this happening on Android
 1) charge you smartphone using you own adapter
 2) use none trivial PIN or password lockscreen protection
 3) use mobile security software that will detect and prevent from launching payloads
 
+### How to prevent this happening on PC
+1) Don't let anyone charge their smartphones in your PC
+2) Use security software that will detect Metasploit payload
+3) USB condom should help
+
 ### PoC
-https://youtu.be/aOWr6rWhsIs 
+Android: https://youtu.be/aOWr6rWhsIs 
+PC: https://youtu.be/PJbqZm73MOc
 
 ### Prerequisites
 - rooted Android with HID kernel support (e.g. NetHunter ROM)
@@ -22,6 +31,7 @@ This is custom script, which might not work on your testing case scenario. Becau
 
 ### Execute command
 bash hid_attack
+bash hid_pc
 
 ### How to flash custom ROM with HID support
 https://github.com/pelya/android-keyboard-gadget
