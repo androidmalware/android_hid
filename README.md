@@ -19,7 +19,7 @@ hid_pc - script contains customized commands that are executed (typed) against t
 3) USB condom should help
 
 ### PoC
-Android: https://youtu.be/aOWr6rWhsIs 
+Android: https://youtu.be/aOWr6rWhsIs
 PC: https://youtu.be/PJbqZm73MOc
 
 ### Prerequisites
