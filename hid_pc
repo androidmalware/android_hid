@@ -1,0 +1,48 @@
+#!/system/bin/sh
+
+echo left-meta r | ./hid-gadget-test /dev/hidg0 keyboard
+echo c m d | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.5
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.9
+echo s t a r t | ./hid-gadget-test /dev/hidg0 keyboard
+echo space | ./hid-gadget-test /dev/hidg0 keyboard
+echo i e x p l o | ./hid-gadget-test /dev/hidg0 keyboard
+echo r e  | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.3
+echo space | ./hid-gadget-test /dev/hidg0 keyboard
+echo g i t h u b | ./hid-gadget-test /dev/hidg0 keyboard
+echo period | ./hid-gadget-test /dev/hidg0 keyboard
+echo c o m | ./hid-gadget-test /dev/hidg0 keyboard
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo a n d r o i | ./hid-gadget-test /dev/hidg0 keyboard
+echo d m a l | ./hid-gadget-test /dev/hidg0 keyboard
+echo w a r e | ./hid-gadget-test /dev/hidg0 keyboard
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo h i d | ./hid-gadget-test /dev/hidg0 keyboard
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo r a w | ./hid-gadget-test /dev/hidg0 keyboard
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo m a i n | ./hid-gadget-test /dev/hidg0 keyboard
+echo slash | ./hid-gadget-test /dev/hidg0 keyboard
+echo n o t m | ./hid-gadget-test /dev/hidg0 keyboard
+echo a l w a r e | ./hid-gadget-test /dev/hidg0 keyboard
+echo period | ./hid-gadget-test /dev/hidg0 keyboard
+echo e x e | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.3
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+
+echo right | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 1
+echo left | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+echo left | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.3
+echo down | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
+sleep 0.3
+echo up | ./hid-gadget-test /dev/hidg0 keyboard
+echo enter | ./hid-gadget-test /dev/hidg0 keyboard
