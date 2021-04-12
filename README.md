@@ -19,7 +19,7 @@ hid_pc - script contains customized commands that are executed (typed) against t
 3) USB condom should help
 
 ### PoC
-Android: https://youtu.be/aOWr6rWhsIs
+Android: https://youtu.be/aOWr6rWhsIs 
 PC: https://youtu.be/PJbqZm73MOc
 
 ### Prerequisites
@@ -28,7 +28,7 @@ PC: https://youtu.be/PJbqZm73MOc
 
 ### Video Tutorial using NetHunter
 [![Watch the video](https://i9.ytimg.com/vi/bYfict-752k/maxresdefault.jpg?time=1618224900000&sqp=CITO0IMG&rs=AOn4CLAINVrJmNFkK5xENKx6Ds1bfmUSPQ)](https://youtu.be/bYfict-752k)
-
+In the video was used "part1/msf_install" PoC script. Tested payload is removed.
 
 ### Script info
 This is custom script, which might not work on your testing case scenario. Because of that, you must play around with pressed keys that are sent to targeted device. Website with my testing payload is not active anymore. List of all possible keys can be found on the link below.
