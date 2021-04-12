@@ -1,0 +1,69 @@
+#!/system/bin/sh
+
+echo down | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+echo left | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo left-ctrl n | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.5
+echo left-ctrl l | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.6
+echo l u k a s | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.5
+echo s t e f | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.5
+echo a n k o | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.5
+echo period | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo c o m | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo slash | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo p a y l | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo o a d | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo period | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo a p k | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.2
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1.2
+
+echo tab | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1.2
+echo tab right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1.2
+echo down | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1.2
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+
+sleep 1
+echo tab | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo tab right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo tab right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+
+
+sleep 1
+echo right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo tab | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 1
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+
+sleep 5.5
+echo tab | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+echo right | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
+sleep 0.5
+echo enter | /data/data/com.offsec.nethunter/files/scripts/bin/hid-keyboard /dev/hidg0 keyboard
