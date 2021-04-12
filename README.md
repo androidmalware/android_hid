@@ -27,7 +27,7 @@ PC: https://youtu.be/PJbqZm73MOc
 - OTG cable
 
 ### Video Tutorial using NetHunter
-[![Watch the video](https://i9.ytimg.com/vi/bYfict-752k/maxresdefault.jpg?time=1618224900000&sqp=CITO0IMG&rs=AOn4CLAINVrJmNFkK5xENKx6Ds1bfmUSPQ)](https://youtu.be/bYfict-752k)
+[![Watch the video](https://i.ibb.co/m0Ng2bc/thumbnail2.png)](https://youtu.be/bYfict-752k)
 In the video was used "part1/msf_install" PoC script. Tested payload is removed.
 
 ### Script info
