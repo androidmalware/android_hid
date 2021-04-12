@@ -26,6 +26,10 @@ PC: https://youtu.be/PJbqZm73MOc
 - rooted Android with HID kernel support (e.g. NetHunter ROM)
 - OTG cable
 
+### Video Tutorial using NetHunter
+[![Watch the video](https://i9.ytimg.com/vi/bYfict-752k/maxresdefault.jpg?time=1618224900000&sqp=CITO0IMG&rs=AOn4CLAINVrJmNFkK5xENKx6Ds1bfmUSPQ)](https://youtu.be/bYfict-752k)
+
+
 ### Script info
 This is custom script, which might not work on your testing case scenario. Because of that, you must play around with pressed keys that are sent to targeted device. Website with my testing payload is not active anymore. List of all possible keys can be found on the link below.
 
