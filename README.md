@@ -19,7 +19,7 @@ hid_pc - script contains customized commands that are executed (typed) against t
 3) USB condom should help
 
 ### PoC
-Android: https://youtu.be/aOWr6rWhsIs 
+Android: https://youtu.be/aOWr6rWhsIs </br>
 PC: https://youtu.be/PJbqZm73MOc
 
 ### Prerequisites
@@ -29,6 +29,14 @@ PC: https://youtu.be/PJbqZm73MOc
 ### Video Tutorial using NetHunter
 [![Watch the video](https://i.ibb.co/m0Ng2bc/thumbnail2.png)](https://youtu.be/bYfict-752k)
 In the video was used "part1/msf_install" PoC script. Tested payload is removed.
+
+### Video Tutorial without using NetHunter
+[![Watch the video](https://i.ibb.co/yYv4gkK/Social-Media-Conference-You-Tube-Thumbnail.png)](https://youtu.be/Mek9DMGy8os)
+USB Gadget Tool: https://github.com/tejado/android-usb-gadget </br>
+HID gadgets: https://github.com/pelya/android-keyboard-gadget/tree/master/hid-gadget-test </br>
+For easy access, I copied USB Gadget Tool and HID gadget to https://github.com/androidmalware/android_hid/tree/main/part2 </br>
+
+
 
 ### Script info
 This is custom script, which might not work on your testing case scenario. Because of that, you must play around with pressed keys that are sent to targeted device. Website with my testing payload is not active anymore. List of all possible keys can be found on the link below.
