@@ -1,4 +1,4 @@
-#!/system/bin/sh
+
 
 echo down | ./hid-gadget-test /dev/hidg0 keyboard
 echo down | ./hid-gadget-test /dev/hidg0 keyboard
